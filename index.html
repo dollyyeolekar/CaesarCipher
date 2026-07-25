@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Caesar Cipher Tool</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="phone">
+  <p class="eyebrow">Cryptography</p>
+  <h1>Caesar<br>Cipher</h1>
+  <p class="subtitle">Shift letters to encrypt or decrypt a message.</p>
+
+  <label class="field-label" for="message">Message</label>
+  <div class="field textarea-field">
+    <textarea id="message" placeholder="Type your message here" rows="3"></textarea>
+  </div>
+
+  <div class="row">
+    <div class="shift-box">
+      <label class="field-label" for="shift">Shift key</label>
+      <div class="field small-field">
+        <input type="number" id="shift" value="3" min="0" max="25">
+      </div>
+    </div>
+
+    <div class="mode-box">
+      <label class="field-label">Mode</label>
+      <div class="mode-toggle">
+        <button class="mode-btn active" id="encryptBtn" type="button">Encrypt</button>
+        <button class="mode-btn" id="decryptBtn" type="button">Decrypt</button>
+      </div>
+    </div>
+  </div>
+
+  <label class="field-label">Result</label>
+  <div class="field result-field">
+    <span id="result">Your result will show up here</span>
+  </div>
+
+  <button class="cta" id="copyBtn" type="button">Copy result</button>
+
+  <p class="footnote">Non-letter characters (spaces, numbers, punctuation) stay unchanged</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
