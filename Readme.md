@@ -19,7 +19,7 @@ Live demo: _add your deployed link here once hosted_
 
 Example: with shift key `3`, `HELLO` encrypts to `KHOOR`, and decrypting `KHOOR` with the same key returns `HELLO`.
 ## live demo:
-https://dollyyeolekar.github.io/caesarcipher/
+https://dollyyeolekar.github.io/CaesarCipher/
 
 ## Technologies
 - HTML5
